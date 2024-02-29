@@ -8,7 +8,7 @@
     -CompanyLogo "\\Server01\Admin\Files\CompanyLogo.png"
 .PARAMETER RightLogo
     Enter URL or UNC path to your desired right-side logo for generated report.
-    -RightLogo "https://www.psmpartners.com/wp-content/uploads/2017/10/porcaro-stolarek-mete.png"
+    -RightLogo "https://www.yoursite/yourimage.png"
 .PARAMETER ReportTitle
     Enter desired title for generated report.
     -ReportTitle "Active Directory Report"
@@ -25,12 +25,8 @@
     Active Directory Objects that have been modified within [X] amount of days.
     -ADModNumber "3"
 .NOTES
-    Version: 1.0.3
-    Author: Bradley Wyatt
-    Date: 12/4/2018
-    Modified: JBear 12/5/2018
-    Bradley Wyatt 12/8/2018
-    jporgand 12/6/2018
+    Version: 1.0.0
+    Author: Michael Goulart
 #>
 
 param (
